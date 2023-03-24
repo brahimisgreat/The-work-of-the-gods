@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(242, 245, 248);
+    margin: 0px;
+    box-sizing: border-box;
+    color:rgb(243, 71, 71); 
+    font-family: 'Cormorant', serif;
+    font-weight: 800;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 71, 71);
+    background-color: antiquewhite;
+    background-image: url(../IMAGES/groccery.avif);
+    padding-bottom: 80px;
+    
+}
+
+.pan, .free{
+    /* background-color: rgba(214, 214, 208, 0.644); */
+    /* border: solid black 2px; */
+    width:493px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+    font-size: 34px;
+    margin-bottom:-5px ;
+}
+    
+.can, .dry, .veg, .snacks{
+    background-color: rgb(221, 233, 114);
+    width: 200px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 50px;
+    color: rgb(27, 63, 16);
+    font-weight: 800;
+    font-size: large;
+}
+
+img{
+    width: 220px;
+    height: 168px;
+    display: inline-block;
+    margin-bottom: -30px;
+    margin-left: 50px;
+}
+
+.box{
+    /* border: solid red 5px; */
+    position: relative;
+    bottom: -100px;
+    height: 60px;
+    background-image: url(../IMAGES/groccery.avif);
+    padding-top: 100px;
+   
+   
+    
